@@ -1,98 +1,72 @@
 <!DOCTYPE html>
-<html lang="bn">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Borbad Full Movie</title>
-
-  <!-- Google Fonts: Stylish and High-Level -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-
-  <!-- Animation CSS -->
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet"/>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Borbad Orginal HD 2025</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
   <style>
     body {
       margin: 0;
-      background-color: #000;
+      padding: 0;
       font-family: 'Poppins', sans-serif;
-      color: #fff;
+      background-color: #0e0e0e;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      overflow-x: hidden;
     }
-
-    .video-container {
-      position: relative;
+    .player-container {
       width: 100%;
       max-width: 100%;
-      overflow: hidden;
-      border-radius: 12px;
+      height: 500px;
+      margin-top: -150px; /* উপরে আনা হলো */
+      margin-bottom: 30px;
+      position: relative;
     }
-
     iframe {
       width: 100%;
-      height: 230px;
-      border: none;
-      border-radius: 12px;
+      height: 100%;
+      background-color: #000;
     }
-
-    @media (min-width: 768px) {
-      iframe {
-        height: 400px;
-      }
-    }
-
-    .description {
-      padding: 20px;
+    .movie-description {
+      font-family: 'Roboto', sans-serif;
       font-size: 18px;
-      line-height: 1.9;
-      text-align: justify;
-      background-color: rgba(20, 20, 20, 0.95);
-      border-radius: 12px;
-      margin: 15px;
-      box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
-      animation: fadeInUp 1s ease-out;
+      color: #f1c40f;
+      text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 15px;
+      border-radius: 10px;
+      max-width: 500px;
+      text-align: left;
+      line-height: 1.5;
+      border-left: 2px solid #f1c40f;
+      position: absolute;
+      top: 370px;
+      left: 20px;
+      z-index: 2;
     }
-
-    .rainbow-text {
-      background: linear-gradient(270deg, #ff4e50, #f9d423, #00c9ff, #92fe9d, #f77062, #c471ed);
-      background-size: 400% 400%;
-      animation: rainbow 8s ease infinite;
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-    }
-
-    @keyframes rainbow {
-      0% { background-position: 0% 50%; }
-      50% { background-position: 100% 50%; }
-      100% { background-position: 0% 50%; }
-    }
-
-    @keyframes fadeInUp {
-      from {
-        opacity: 0;
-        transform: translateY(20px);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0);
-      }
+    .movie-description h3 {
+      margin-top: 0;
+      font-size: 22px;
+      color: #fff;
     }
   </style>
 </head>
 <body>
-
-<div class="video-container">
-  <iframe src="https://drive.google.com/file/d/1sAUMxDjDT-By3Z6KKJL_B46IT_r1vScu/preview" 
-          allow="autoplay; fullscreen" allowfullscreen>
-  </iframe>
-</div>
-
-<div class="description animate__animated animate__fadeInUp">
-  <p class="rainbow-text">
-    The content provided in this app is for informational and entertainment purposes only. All videos, movies, and media belong to their respective copyright owners (e.g., ). 
-    We do not claim any ownership of the content. If you are a copyright holder and believe your rights have been violated, please contact us. 
-    We will take immediate action to resolve the matter.
-  </p>
-</div>
+  <!-- Video Player Container -->
+  <div class="player-container">
+    <iframe src="https://rumble.com/hls-vod/6qm22t/playlist.m3u8?u=0&b=0" frameborder="0" allowfullscreen></iframe>
+    <div class="movie-description">
+      <h3>Movie Title: Borbad Original HD</h3>
+      <p>
+        Borbad Original HD<br>
+        2024 • Movie • 02 Hr 20 Min 05 Sec<br>
+     
+      </p>
+    </div>
 <script type='text/javascript' src='//pl26377172.profitableratecpm.com/d7/8b/93/d78b9343b29d8ff89244b094b359e591.js'></script>
 </body>
 </html>
